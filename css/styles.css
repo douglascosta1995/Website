@@ -1,0 +1,113 @@
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*100% = 16px = 1em = 1rem(not inherit from parent) */
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}
+hr{
+  border-style: none;
+  border-top: 8px #EAF6F6;
+  border-top-style: dotted;
+  height: 0;
+  margin: 50px auto 50px auto;
+  width: 5%;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.introduce1{
+  color: black;
+}
+.introduce2{
+  color: black;
+  font-weight: normal;
+  margin: 20px auto 60px auto;
+}
+.introduce3{
+  margin: 50px auto 50px auto;
+  line-height: 2;
+  text-align: center;
+  width: 30%;
+}
+.programming-skill{
+  border-radius: 10%;
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+.profiledouglas{
+  height: 200px;
+  margin-top: 5px;
+  width: 200px;
+}
+.design{
+  border-radius: 10%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.skill-row{
+  line-height: 2;
+  margin:100px auto 100px auto;
+  text-align: left;
+  width:50%;
+}
+.top-container{
+  background-color: #63b7af;
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding: 50px 0 0 0;
+}
+.footer-name{
+  margin:0;
+  padding: 40px 0 40px 0;
+  color: #EAF6F6;
+  font-size: 0.75em;
+}
+.flaticon{
+  font-size: 0.5em;
+  margin-bottom: 0;
+}
+
+.bottom-cloud{
+  bottom:300px;
+  left:200px;
+  position: absolute;
+
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:50px;
+}
